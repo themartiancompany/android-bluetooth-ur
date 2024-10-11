@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _module=bluetooth
 pkgname="android-${_module}-utils"
-pkgver="0.0.0.0.0.0.0.0.0.1"
-_commit="ef10794f4dc67418531e22ce8e379c147c5651a0"
+pkgver="0.0.0.0.0.0.0.0.0.1.1.1"
+_commit="4a1e3b9b698f610d6d37ad4a394e3128e0d89347"
 pkgrel=1
 _pkgdesc=(
   "Android Bluetooth utilities."
@@ -74,7 +74,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="cbbd0b248fed0284914b85cce3e42f352e923af1923c7d69daadea557cc403a8"
+    _sum="4739c5541e5edfc14fe90ffb76bb774dbb1d8877704bc0d95103032189c19c2e"
   fi && \
     source+=(
       "${_tar}"

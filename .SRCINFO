@@ -1,6 +1,6 @@
 pkgbase = android-bluetooth-utils
 	pkgdesc = Android Bluetooth utilities.
-	pkgver = 0.0.0.0.0.0.0.0.0.1
+	pkgver = 0.0.0.0.0.0.0.0.0.1.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/android-bluetooth-utils
 	arch = any
@@ -9,8 +9,8 @@ pkgbase = android-bluetooth-utils
 	makedepends = make
 	depends = libcrash-bash
 	depends = tsu
-	source = android-bluetooth-utils-ef10794f4dc67418531e22ce8e379c147c5651a0.zip::https://github.com/themartiancompany/android-bluetooth-utils/archive/ef10794f4dc67418531e22ce8e379c147c5651a0.zip
+	source = android-bluetooth-utils-4a1e3b9b698f610d6d37ad4a394e3128e0d89347.zip::https://github.com/themartiancompany/android-bluetooth-utils/archive/4a1e3b9b698f610d6d37ad4a394e3128e0d89347.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = cbbd0b248fed0284914b85cce3e42f352e923af1923c7d69daadea557cc403a8
+	sha256sums = 4739c5541e5edfc14fe90ffb76bb774dbb1d8877704bc0d95103032189c19c2e
 
 pkgname = android-bluetooth-utils
